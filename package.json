@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "test": ":",
-    "build": "node-sass styles.scss -o css",
+    "build": "sass styles.scss css/styles.css",  // updated build script
     "postinstall": "npm run build"
   },
   "author": {
@@ -15,6 +15,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^7.0.0"
+    "sass": "^1.43.0"  // updated dependency
   }
 }
